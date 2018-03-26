@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="static/normalize.css">
+        <link href="https://fonts.googleapis.com/css?family=Special+Elite|Fredericka+the+Great|Lobster|Oswald:300,400,500,600" rel="stylesheet"> 
+        <link rel="stylesheet" type="text/css" href="static/font-awesome.css">
+        
+        <link rel="stylesheet" type="text/css" href="static/style.css">
+        <title>Abacaxi</title>
+    </head>
+    <body>
+        <!-- landing section -->
+        <section class="landing">
+            <!-- header -->
+            <header>
+                <div class="container">
+                    <div class="logo">
+                        <a href="#">
+                                abacaxi
+                        </a>
+                    </div>
+                    <nav>
+                        <a href="">home</a>
+                        <a href="">about</a>
+                        <a href="">menu</a>
+                        <a href="">specialities</a>
+                        <a href="./reservations.html">reservations</a>
+                        <a href="">find us</a>
+                    </nav>
+                </div>
+            </header>
+            <!-- herosection -->
+            <section class="hero">
+                <div class="heroblock">
+                    <h3 class="heroblock__h3">welcome to</h3>
+                    <h1 class="heroblock__title">- ABACAXI -</h1>
+                    <p class="heroblock__message">El restaurante de la comida sana <br>hecha con amor</p>
+                    <a href="reservations.html" class="btn btn--reservations--landing">reservations</a>
+                </div>
+            
+                <a href="#" class="downarrow"><i class="fa fa-arrow-circle-o-down fa-2x" aria-hidden="true"></i>
+                 </a>
+            </section>
+        </section>  
+        <!--end of landing section-->
+        
+        <!-- About section -->
+        <section class="about__section">
+            <div class="container">
+               <div class="aboutrow">
+                    <div class="contentbox">
+                        <h2 class="contentbox__head">About us</h2>
+                        <h3 class="contentbox__subhead">The best of the garde for you!</h3>
+                        <p class="contentbox__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Repellendus officia at autem neque odit temporibus. 
+                            <br> <br>Vel voluptatibus praesentium at, ullam veritatis autem 
+                            temporibus deleniti non quas optio iusto repellat facere!
+                            <br><br>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Repellendus officia at autem neque odit temporib
+                            us.</p>
+                        <div class="firma"><img src="static/images/firma.png" alt="" class="firma__icon"></div>
+                    </div>
+                    <div class="aboutrow__col-2">
+                   
+                            <img src="static/images/about-fruit.jpg" alt="fruit dish" class="aboutrow__fruit">
+                            <h3 class="aboutrow__col-2__subhead">healthy delicious food</h3>
+                    
+                    </div>
+               </div>
+            </div>
+        </section> 
+        <!--end of about section-->
+
+       <!-- motives section -->
+        <section class="motives">
+            <div class="motives__row">
+                <div class="motives__col">
+                    <div class="motives__item">
+                        <div class="motives__overlay">
+                            <div class="motives__item__hovertext">
+                                <h3 class="motives__h3">ensaladas</h3>
+                                <h2 class="motives__h2">- receta original bio -</h2>
+                            </div>
+                        </div>
+                        <img src="static/images/vegetales-canasta.jpeg" alt="" class="motives__img">
+                        
+                    </div>
+                </div>
+                <div class="motives__col">
+                    <div class="motives__item">
+                        <div class="motives__overlay">
+                            <div class="motives__item__hovertext">
+                                <h3 class="motives__h3">ensaladas</h3>
+                                <h2 class="motives__h2">- receta original bio -</h2>
+                            </div>
+                        </div>
+                        <img src="static/images/vegetales.jpeg" alt="" class="motives__img">
+                    </div>
+                </div>
+                <div class="motives__col">
+                    <div class="motives__item">
+                        <div class="motives__overlay">
+                            <div class="motives__item__hovertext">
+                                <h3 class="motives__h3">ensaladas</h3>
+                                <h2 class="motives__h2">- receta original bio -</h2>
+                            </div>
+                        </div>
+                        <img src="static/images/eating-salad.jpeg" alt="" class="motives__img">
+                    </div>
+                </div>
+            </div>
+        </section>   
+        <!-- End of motives section -->
+
+        <!-- menu section -->
+        <section class="menu-section">
+
+            <div class="menu__container">
+                <!-- menu title hero -->
+                <div class="menu__title">
+                    <h3 class="hero__h3 hero__h3--menu">menu</h3>
+                    <h2 class="hero__title hero__title--menu">- our delicious recepies -</h2>
+                    <p class="hero__message hero__message--menu">
+                        adipisicing elititae velit qui eligendi voluptatem earum inventore!<br> 
+                        Lorem ipsum dolor sit amet consectetur. 
+                        </p>
+                        
+                </div>
+                <!-- menu body -->
+                <!-- menu tabs -->
+               <div class="menu__tabs__container">
+                    <div class="tab">
+                    <button class="tablinks" onclick="openMenu(event, 'Breakfast')" id="defaultOpen">Breakfast</button>
+                    <button class="tablinks" onclick="openMenu(event, 'Lunch')">Lunch</button>
+                    <button class="tablinks" onclick="openMenu(event, 'Dinner')">Dinner</button>
+                    </div>
+                    
+                    <!-- menu tab's content -->
+                    <!-- Breakfast content-->
+                    <div id="Breakfast" class="tabcontent">
+                    <!-- Breakfast row -->
+                        <div class="menu__row">
+                            <div class="menu__item">
+                                <!-- dish and price nested -->
+                                <div class="menu__dish-and-price">
+                                    <h4 class="menu__dish">Salmon asado</h4>
+                                    <h4 class="menu__price">$20</h4>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, modi.</p>
+                            </div>    
+                            <div class="menu__item">
+                                <!-- dish and price nested -->
+                                <div class="menu__dish-and-price">
+                                    <h4 class="menu__dish">Salmon asado</h4>
+                                    <h4 class="menu__price">$20</h4>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, modi.</p>
+                            </div>    
+                            <div class="menu__item">
+                                <!-- dish and price nested -->
+                                <div class="menu__dish-and-price">
+                                    <h4 class="menu__dish">Salmon asado</h4>
+                                    <h4 class="menu__price">$20</h4>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, modi.</p>
+                            </div>    
+                            <div class="menu__item">
+                                <!-- dish and price nested -->
+                                <div class="menu__dish-and-price">
+                                    <h4 class="menu__dish">Salmon asado</h4>
+                                    <h4 class="menu__price">$20</h4>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, modi.</p>
+                            </div>    
+                            <div class="menu__item">
+                                <!-- dish and price nested -->
+                                <div class="menu__dish-and-price">
+                                    <h4 class="menu__dish">Salmon asado</h4>
+                                    <h4 class="menu__price">$20</h4>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, modi.</p>
+                            </div>    
+                            <div class="menu__item">
+                                <!-- dish and price nested -->
+                                <div class="menu__dish-and-price">
+                                    <h4 class="menu__dish">Salmon asado</h4>
+                                    <h4 class="menu__price">$20</h4>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, modi.</p>
+                            </div>    
+                            <div class="menu__item">
+                                <!-- dish and price nested -->
+                                <div class="menu__dish-and-price">
+                                    <h4 class="menu__dish">Salmon asado</h4>
+                                    <h4 class="menu__price">$20</h4>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, modi.</p>
+                            </div>    
+                        </div>
+                    </div>
+
+                    <!-- Lunch content-->
+                    <div id="Lunch" class="tabcontent">
+                        <!-- Lunch row -->
+                        <div class="menu__row">
+                            <div class="menu__item">
+                                <!-- dish and price nested -->
+                                <div class="menu__dish-and-price">
+                                    <h4 class="menu__dish">Salmon asado</h4>
+                                    <h4 class="menu__price">$20</h4>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, modi.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Dinner  content-->
+                    <div id="Dinner" class="tabcontent">
+                        <!--Dinner row  -->
+                        <div class="menu__row">
+                            <div class="menu__item">
+                                <!-- dish and price nested -->
+                                <div class="menu__dish-and-price">
+                                    <h4 class="menu__dish">Salmon asado</h4>
+                                    <h4 class="menu__price">$20</h4>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, modi.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               </div>
+               <div class="menu__buttonwrapper"><a href="reservations.html" class="btn">reservations</a></div>
+        </section>
+        <!--End of menu section  -->
+
+        <!-- message section -->
+        <section class="message__section">
+            <div class="message__title-block">
+                <h2 class="hero__title">Message</h2>
+                <h3 class="hero__h3">Promote your restaurant</h3>
+            </div>
+        </section>
+        <!-- end of message -->
+        
+        <!-- specialities section -->
+
+        <section class="specialities__section">
+            <div class="specialities__title-block">
+                <h3 class="hero__h3">Please check</h3>
+                <h2 class="hero__title">- our specialities -</h2>
+                <p class="hero__message hero__message--specialities">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> 
+                    Tenetur iusto, officiis illo quidem natus reiciendis.</p>
+            </div>
+
+            <div class="specialities__row">
+                <div class="specialities__col">
+                    <div class="specialities__item">
+                        <div class="specialities__overlay">
+                            <div class="specialities__item__hovertext">
+                                <h3 class="specialities__h3">ensaladas</h3>
+                                <h2 class="specialities__h2">- receta original bio -</h2>
+                            </div>
+                        </div>
+                        <img src="static/images/eating-salad.jpeg" alt="" class="specialities__img">
+                    </div>
+                </div>
+                <div class="specialities__col">
+                    <div class="specialities__item">
+                        <div class="specialities__overlay">
+                            <div class="specialities__item__hovertext">
+                                <h3 class="specialities__h3">ensaladas</h3>
+                                <h2 class="specialities__h2">- receta original bio -</h2>
+                            </div>
+                        </div>
+                        <img src="static/images/eating-salad.jpeg" alt="" class="specialities__img">
+                    </div>
+                </div>
+                <div class="specialities__col">
+                    <div class="specialities__item">
+                        <div class="specialities__overlay">
+                            <div class="specialities__item__hovertext">
+                                <h3 class="specialities__h3">ensaladas</h3>
+                                <h2 class="specialities__h2">- receta original bio -</h2>
+                            </div>
+                        </div>
+                        <img src="static/images/eating-salad.jpeg" alt="" class="specialities__img">
+                    </div>
+                </div>
+                <div class="specialities__col">
+                    <div class="specialities__item">
+                        <div class="specialities__overlay">
+                            <div class="specialities__item__hovertext">
+                                <h3 class="specialities__h3">ensaladas</h3>
+                                <h2 class="specialities__h2">- receta original bio -</h2>
+                            </div>
+                        </div>
+                        <img src="static/images/eating-salad.jpeg" alt="" class="specialities__img">
+                    </div>
+                </div>
+            </div>
+            <div class="spacialities__buttonwrapper"><a href="#" class="btn">find us</a></div>
+        </section>
+        <!-- End of specialities section -->
+        <hr class="separator">
+        <!-- Team section -->
+        <section class="team-section">
+                <div class="specialities__title-block">
+                    <h3 class="hero__h3">happy to serve you!</h3>
+                    <h2 class="hero__title">- Our team -</h2>
+                    <p class="hero__message hero__message--team">Lorem officiis illo quidem natus re ipsum dolor sit amet consectetur adipisicing elit. <br> 
+                        Tenetur iusto, officiis illo quidem natus re
+                        iciendis.</p>
+                </div>
+                <div class="container team_cards-container">
+                    <div class="card">
+                        <img class="card__img" src="static/images/chef.jpg" alt="card image" style="width:100%">
+                        <div class="card__text">
+                            <h4><b>Domingo</b></h4>
+                            <p>Our great chef from Titumate.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card__img" src="static/images/manager.jpg" alt="card image" style="width:100%">
+                        <div class="card__text">
+                            <h4><b>Te Iang</b></h4>
+                            <p>Our cool manager</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card__img" src="static/images/waiter.jpg" alt="card image" style="width:100%">
+                        <div class="card__text">
+                            <h4><b>Yadira</b></h4>
+                            <p>Our very talented waiter</p>
+                        </div>
+                    </div>
+                </div>    
+        </section>
+
+        <!-- reviews section -->
+        <section class="reviews-section">
+                <div class="reviews__title-block">
+                    <h3 class="hero__h3 hero__h3--reviews">let us show you</h3>
+                    <h2 class="hero__title">- what others are saying -</h2>
+                    <p class="hero__message hero__message--review">Lorem officiis illo quidem natus re ipsum dolor sit amet consectetur adipisicing elit. <br> 
+                        Tenetur iusto, officiis illo quidem natus re
+                        iciendis.</p>
+                </div>
+
+                <!-- reviews slide -->
+            <div class="slideshow-container">
+                
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="static/images/slide1.jpg" style="width:100%">
+                    <div class="review--quote">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
+                        Molestias tempora ipsum inventore suscipit debitis 
+                        </p>
+                        <h4 class="review--quote__sign">Trip advisor</h4>
+                    </div>
+                   
+                </div>
+                    
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="static/images/slide2.jpg" style="width:100%">
+                    <div class="review--quote">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
+                        Molestias tempora ipsum inventore susadsfsadfasdf <br> 
+                        cipit debitis 
+                        </p>
+                        <h4 class="review--quote__sign">The good table</h4>
+                    </div>
+                  
+                </div>
+                
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="static/images/slide3.jpg" style="width:100%">
+                    <div class="review--quote">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
+                        Molestias tempora lasdjfkkd klköjasdfj <br>
+                         ipsum inventore suscipit debitis 
+                        </p>
+                        <h4 class="review--quote__sign">Squire</h4>
+                    </div>
+                   
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
+                
+                <br>
+                
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span> 
+                    <span class="dot" onclick="currentSlide(2)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+            </div>
+    </section>
+    <!-- end of reviews section -->
+
+    <section class="location">
+        <div class="location__title-block">
+            <h3 class="hero__h3 hero__h3--location">Find us</h3>
+            <h2 class="hero__title">- our location -</h2>
+        </div>
+        <div class="map"><img src="static/images/map.png" alt=""></div>
+    </section>
+
+    <!-- end section -->
+    <footer>
+
+        <div class="container">
+            <div class="end__row">
+                <div class="end__item">
+                    <h3>ABACAXI</h3>
+                    <p>Lorem ipsum dolor sit, <br>
+                         amet consectetur adipisicing <br>
+                         elit. Beatae autem perspiciatis <br>
+                         e cum possimus quia adipisci!</p>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-google-plus-square" aria-hidden="true"></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>        
+                </div>
+    
+                <div class="end__item end__item--form">
+
+                    
+                        <form action="/my-handling-form-page" method="post" class="reservation-form">
+                            <!-- Name Field -->
+                            <div>
+                                <label for="name">Name</label>
+                                <input class="form__input" type="text" id="name" name="User_name" placeholder="Enter your name...">
+                            </div>
+                
+                            <!--Email Field-->
+                            <div>
+                                <label for="mail">Email Adress</label>
+                                <input class="form__input" type="mail" id="mail" name="User_mail" placeholder="Enter your email adress...">
+                            </div>
+                
+                            <!-- Phone Field -->
+                            <div>
+                                <label for="phone">Phone</label>
+                                <input class="form__input" type="tel" id="phone" name="User_phone" placeholder="Type your phone...">
+                            </div>
+                            <div>
+                                <label for="msg">Message</label>
+                                <textarea class="form__input form__input--msg" name="user_message" id="msg" cols="30" rows="5" placeholder="add any comment you think is necesary"></textarea>
+                        </div>
+                        </form>
+                </div>
+                <div class="end__item">
+                        <p class="end__paragraph">OUR ADDRESS
+                                Some city, another street 12/345 -One more city, Some street 12/345
+                                
+                                PHONE and EMAIL
+                                Call us please: 065 123 456 789 - 066 123 456 789
+                                
+                                supportteam@gmail.com -supportteam@yhaoo.com
+                        </p>
+                </div>
+        </div>
+    </footer>
+    <!-- JavaScript -->
+    <script src="tabs.js"></script>
+   
+
+    </body>
+</html>
